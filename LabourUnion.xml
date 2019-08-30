@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--        The document contains only properly encoded legal Unicode characters.-->
+<!--        None of the special syntax characters such as < and & appear except when performing their markup-delineation roles.-->
+<!--        The start-tag, end-tag, and empty-element tag that delimit elements are correctly nested, with none missing and none overlapping.-->
+<!--        Tag names are case-sensitive; the start-tag and end-tag must match exactly.-->
+<!--        Tag names cannot contain any of the characters !"#$%&'()*+,/;<=>?@[\]^`{|}~, nor a space character, and cannot begin with "-", ".", or a numeric digit.-->
+<!--        A single root element contains all the other elements.-->
+<!--        <![CDATA[My weird characters !<<<]]>-->
+
+
+<WorkForce>
+    <OutSideUnion>
+        <UnderPaidWorker name="Lars"></UnderPaidWorker>
+        <UnderPaidWorker name="Jens"></UnderPaidWorker>
+    </OutSideUnion>
+    <LabourUnion>
+        <WellPaidWork> <![CDATA[Special Character < >]]  </WellPaidWork>
+        <WellPaidWork name="Søren"/>
+        <WellPaidWork name="Henriette"><![CDATA[Look at my << >>special characters<<<>>>]]></WellPaidWork>
+        <WellPaidWork name="Natasha" salary="1000.0">
+            <WorkFunction>Selenium Tests</WorkFunction>
+            <WorkFunction>Codes Kotlin</WorkFunction>
+        </WellPaidWork>
+    </LabourUnion>
+</WorkForce>
+
+
+
+
